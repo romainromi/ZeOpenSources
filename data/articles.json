@@ -1,0 +1,459 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "titre": "Les bases du HTML5",
+      "contenu": "HTML5 introduit de nouvelles balises sémantiques comme <header>, <footer> et <article>, facilitant la structuration du contenu web.",
+      "image": "https://placehold.co/300x200?text=HTML5",
+      "categorie_id": 24,
+      "date_creation": "2025-10-01",
+      "user_id": 2
+    },
+    {
+      "id": 2,
+      "titre": "Découvrir CSS Grid",
+      "contenu": "CSS Grid permet de créer des mises en page modernes et adaptatives sans recourir aux frameworks lourds.",
+      "image": "https://placehold.co/300x200?text=CSS+Grid",
+      "categorie_id": 24,
+      "date_creation": "2025-10-02",
+      "user_id": 4
+    },
+    {
+      "id": 3,
+      "titre": "Introduction à Python pour les débutants",
+      "contenu": "Python est un langage polyvalent, idéal pour apprendre la programmation grâce à sa syntaxe claire et intuitive.",
+      "image": "https://placehold.co/300x200?text=Python",
+      "categorie_id": 16,
+      "date_creation": "2025-10-03",
+      "user_id": 1
+    },
+    {
+      "id": 4,
+      "titre": "Comprendre le DevOps",
+      "contenu": "DevOps rapproche développement et exploitation pour accélérer les cycles de déploiement grâce à l’automatisation.",
+      "image": "https://placehold.co/300x200?text=DevOps",
+      "categorie_id": 11,
+      "date_creation": "2025-10-04",
+      "user_id": 3
+    },
+    {
+      "id": 5,
+      "titre": "Les nouveautés d’ECMAScript 2025",
+      "contenu": "Chaque année, JavaScript évolue. La version 2025 apporte des améliorations sur la gestion asynchrone et les opérateurs logiques.",
+      "image": "https://placehold.co/300x200?text=ECMAScript",
+      "categorie_id": 17,
+      "date_creation": "2025-10-05",
+      "user_id": 5
+    },
+    {
+      "id": 6,
+      "titre": "Introduction à React 19",
+      "contenu": "React 19 introduit les hooks serveur et une gestion améliorée du rendu asynchrone.",
+      "image": "https://placehold.co/300x200?text=React19",
+      "categorie_id": 30,
+      "date_creation": "2025-10-06",
+      "user_id": 2
+    },
+    {
+      "id": 7,
+      "titre": "Créer une API REST avec Node.js",
+      "contenu": "Node.js et Express permettent de concevoir rapidement une API performante pour vos applications web.",
+      "image": "https://placehold.co/300x200?text=Node+API",
+      "categorie_id": 36,
+      "date_creation": "2025-10-07",
+      "user_id": 1
+    },
+    {
+      "id": 8,
+      "titre": "L’intelligence artificielle dans le quotidien",
+      "contenu": "L’IA est déjà partout : recommandations, assistants vocaux, maintenance prédictive. Voici ses usages concrets.",
+      "image": "https://placehold.co/300x200?text=IA",
+      "categorie_id": 7,
+      "date_creation": "2025-10-08",
+      "user_id": 3
+    },
+    {
+      "id": 9,
+      "titre": "Premiers pas avec Docker",
+      "contenu": "Docker simplifie le déploiement d’applications en isolant leurs dépendances dans des conteneurs légers.",
+      "image": "https://placehold.co/300x200?text=Docker",
+      "categorie_id": 11,
+      "date_creation": "2025-10-09",
+      "user_id": 4
+    },
+    {
+      "id": 10,
+      "titre": "Cybersécurité : protéger ses données personnelles",
+      "contenu": "Utiliser un gestionnaire de mots de passe et activer la double authentification sont des réflexes essentiels.",
+      "image": "https://placehold.co/300x200?text=CyberSec",
+      "categorie_id": 4,
+      "date_creation": "2025-10-10",
+      "user_id": 5
+    },
+    {
+      "id": 11,
+      "titre": "Découvrir Git et GitHub",
+      "contenu": "Git permet le versionnement du code tandis que GitHub facilite la collaboration et la revue de projets.",
+      "image": "https://placehold.co/300x200?text=GitHub",
+      "categorie_id": 9,
+      "date_creation": "2025-10-11",
+      "user_id": 2
+    },
+    {
+      "id": 12,
+      "titre": "Introduction au Machine Learning",
+      "contenu": "Le Machine Learning permet aux systèmes d’apprendre à partir des données sans être explicitement programmés.",
+      "image": "https://placehold.co/300x200?text=ML",
+      "categorie_id": 8,
+      "date_creation": "2025-10-12",
+      "user_id": 3
+    },
+    {
+      "id": 13,
+      "titre": "Big Data : traiter des volumes massifs",
+      "contenu": "Les outils comme Hadoop et Spark permettent d’exploiter de grandes quantités de données en temps réel.",
+      "image": "https://placehold.co/300x200?text=BigData",
+      "categorie_id": 39,
+      "date_creation": "2025-10-13",
+      "user_id": 1
+    },
+    {
+      "id": 14,
+      "titre": "Lancer une API GraphQL",
+      "contenu": "GraphQL offre plus de flexibilité que REST en permettant au client de choisir les données renvoyées.",
+      "image": "https://placehold.co/300x200?text=GraphQL",
+      "categorie_id": 37,
+      "date_creation": "2025-10-14",
+      "user_id": 4
+    },
+    {
+      "id": 15,
+      "titre": "Les principes du Cloud Computing",
+      "contenu": "Le cloud permet l’accès à des ressources informatiques à la demande via Internet.",
+      "image": "https://placehold.co/300x200?text=Cloud",
+      "categorie_id": 51,
+      "date_creation": "2025-10-15",
+      "user_id": 1
+    },
+    {
+      "id": 16,
+      "titre": "Introduction à Kubernetes",
+      "contenu": "Kubernetes orchestre les conteneurs pour garantir scalabilité et haute disponibilité.",
+      "image": "https://placehold.co/300x200?text=Kubernetes",
+      "categorie_id": 11,
+      "date_creation": "2025-10-16",
+      "user_id": 3
+    },
+    {
+      "id": 17,
+      "titre": "Les bases du langage Rust",
+      "contenu": "Rust allie performance et sécurité mémoire, idéal pour les systèmes critiques.",
+      "image": "https://placehold.co/300x200?text=Rust",
+      "categorie_id": 22,
+      "date_creation": "2025-10-17",
+      "user_id": 5
+    },
+    {
+      "id": 18,
+      "titre": "Optimiser les performances web",
+      "contenu": "Minifier le code, activer le cache et compresser les images améliore l’expérience utilisateur.",
+      "image": "https://placehold.co/300x200?text=Performance",
+      "categorie_id": 71,
+      "date_creation": "2025-10-18",
+      "user_id": 2
+    },
+    {
+      "id": 19,
+      "titre": "Sécuriser ses applications avec OAuth2",
+      "contenu": "OAuth2 permet une authentification sécurisée sans exposer les mots de passe utilisateurs.",
+      "image": "https://placehold.co/300x200?text=OAuth2",
+      "categorie_id": 53,
+      "date_creation": "2025-10-19",
+      "user_id": 4
+    },
+    {
+      "id": 20,
+      "titre": "L’essor du NoCode en entreprise",
+      "contenu": "Les plateformes NoCode permettent aux équipes non techniques de créer des outils internes rapidement.",
+      "image": "https://placehold.co/300x200?text=NoCode",
+      "categorie_id": 58,
+      "date_creation": "2025-10-20",
+      "user_id": 1
+    },
+{
+  "articles": [
+    {
+      "id": 21,
+      "titre": "Comprendre les réseaux neuronaux",
+      "contenu": "Les réseaux neuronaux imitent le fonctionnement du cerveau humain pour reconnaître des schémas complexes dans les données.",
+      "image": "https://placehold.co/300x200?text=Neural+Networks",
+      "categorie_id": 8,
+      "date_creation": "2025-10-21",
+      "user_id": 2
+    },
+    {
+      "id": 22,
+      "titre": "Le rôle du GPU dans l’intelligence artificielle",
+      "contenu": "Les GPU accélèrent les calculs parallèles nécessaires à l’entraînement des modèles de deep learning.",
+      "image": "https://placehold.co/300x200?text=GPU+AI",
+      "categorie_id": 5,
+      "date_creation": "2025-10-22",
+      "user_id": 3
+    },
+    {
+      "id": 23,
+      "titre": "Mettre en place une API sécurisée avec Flask",
+      "contenu": "Flask permet de créer des APIs légères. Ajoutez JWT pour sécuriser les échanges entre client et serveur.",
+      "image": "https://placehold.co/300x200?text=Flask+API",
+      "categorie_id": 37,
+      "date_creation": "2025-10-23",
+      "user_id": 1
+    },
+    {
+      "id": 24,
+      "titre": "Découverte du Web 3.0",
+      "contenu": "Le Web 3.0 vise la décentralisation et la souveraineté des données via la blockchain.",
+      "image": "https://placehold.co/300x200?text=Web3",
+      "categorie_id": 45,
+      "date_creation": "2025-10-24",
+      "user_id": 5
+    },
+    {
+      "id": 25,
+      "titre": "L’architecture microservices",
+      "contenu": "Les microservices permettent de diviser une application en modules indépendants et scalables.",
+      "image": "https://placehold.co/300x200?text=Microservices",
+      "categorie_id": 11,
+      "date_creation": "2025-10-25",
+      "user_id": 4
+    },
+    {
+      "id": 26,
+      "titre": "Découvrir PostgreSQL",
+      "contenu": "PostgreSQL est une base de données open source robuste, idéale pour les projets nécessitant fiabilité et performance.",
+      "image": "https://placehold.co/300x200?text=PostgreSQL",
+      "categorie_id": 19,
+      "date_creation": "2025-10-26",
+      "user_id": 3
+    },
+    {
+      "id": 27,
+      "titre": "Initiation à la robotique",
+      "contenu": "La robotique combine mécanique, électronique et informatique pour créer des systèmes autonomes.",
+      "image": "https://placehold.co/300x200?text=Robotique",
+      "categorie_id": 27,
+      "date_creation": "2025-10-27",
+      "user_id": 5
+    },
+    {
+      "id": 28,
+      "titre": "La cybersécurité pour les développeurs",
+      "contenu": "Apprendre à éviter les failles XSS, CSRF et injections SQL est essentiel pour sécuriser ses applications.",
+      "image": "https://placehold.co/300x200?text=Cyber+Dev",
+      "categorie_id": 4,
+      "date_creation": "2025-10-28",
+      "user_id": 1
+    },
+    {
+      "id": 29,
+      "titre": "Créer un portfolio en ligne avec Next.js",
+      "contenu": "Next.js offre un rendu côté serveur performant et simplifie le déploiement sur Vercel.",
+      "image": "https://placehold.co/300x200?text=Next.js",
+      "categorie_id": 30,
+      "date_creation": "2025-10-29",
+      "user_id": 2
+    },
+    {
+      "id": 30,
+      "titre": "Les fondamentaux du design UX",
+      "contenu": "L’expérience utilisateur repose sur la clarté, la cohérence et la simplicité d’utilisation des interfaces.",
+      "image": "https://placehold.co/300x200?text=UX+Design",
+      "categorie_id": 62,
+      "date_creation": "2025-10-30",
+      "user_id": 4
+    },
+    {
+      "id": 31,
+      "titre": "Les systèmes d’exploitation modernes",
+      "contenu": "Windows, macOS et Linux partagent des concepts fondamentaux : noyau, processus, mémoire et fichiers.",
+      "image": "https://placehold.co/300x200?text=OS",
+      "categorie_id": 21,
+      "date_creation": "2025-10-31",
+      "user_id": 1
+    },
+    {
+      "id": 32,
+      "titre": "Optimiser son code Java",
+      "contenu": "L’optimisation du code Java passe par la gestion de la mémoire, la réduction des objets temporaires et l’utilisation du JIT.",
+      "image": "https://placehold.co/300x200?text=Java",
+      "categorie_id": 15,
+      "date_creation": "2025-11-01",
+      "user_id": 3
+    },
+    {
+      "id": 33,
+      "titre": "L’impact écologique du numérique",
+      "contenu": "Les data centers consomment d’énormes quantités d’énergie. L’optimisation logicielle peut réduire leur empreinte carbone.",
+      "image": "https://placehold.co/300x200?text=GreenIT",
+      "categorie_id": 70,
+      "date_creation": "2025-11-02",
+      "user_id": 4
+    },
+    {
+      "id": 34,
+      "titre": "Introduction à la blockchain",
+      "contenu": "La blockchain est un registre distribué immuable utilisé notamment pour les cryptomonnaies.",
+      "image": "https://placehold.co/300x200?text=Blockchain",
+      "categorie_id": 45,
+      "date_creation": "2025-11-03",
+      "user_id": 5
+    },
+    {
+      "id": 35,
+      "titre": "Développer des applications mobiles hybrides",
+      "contenu": "Les frameworks comme Ionic ou Flutter permettent de créer des apps multiplateformes efficaces.",
+      "image": "https://placehold.co/300x200?text=Mobile",
+      "categorie_id": 29,
+      "date_creation": "2025-11-04",
+      "user_id": 2
+    },
+    {
+      "id": 36,
+      "titre": "Les bases du langage Go",
+      "contenu": "Go est un langage compilé rapide et concurrent, très utilisé dans le cloud computing.",
+      "image": "https://placehold.co/300x200?text=Golang",
+      "categorie_id": 18,
+      "date_creation": "2025-11-05",
+      "user_id": 3
+    },
+    {
+      "id": 37,
+      "titre": "Le rôle du CDN dans les performances web",
+      "contenu": "Un CDN distribue le contenu sur plusieurs serveurs pour réduire la latence et accélérer le chargement.",
+      "image": "https://placehold.co/300x200?text=CDN",
+      "categorie_id": 71,
+      "date_creation": "2025-11-06",
+      "user_id": 4
+    },
+    {
+      "id": 38,
+      "titre": "Découverte de l’impression 3D",
+      "contenu": "L’impression 3D transforme la conception industrielle en permettant la fabrication rapide de prototypes.",
+      "image": "https://placehold.co/300x200?text=3D+Print",
+      "categorie_id": 33,
+      "date_creation": "2025-11-07",
+      "user_id": 5
+    },
+    {
+      "id": 39,
+      "titre": "Apprendre la cybersécurité offensive",
+      "contenu": "L’éthique hacker permet d’identifier les vulnérabilités avant qu’elles ne soient exploitées.",
+      "image": "https://placehold.co/300x200?text=Ethical+Hacking",
+      "categorie_id": 4,
+      "date_creation": "2025-11-08",
+      "user_id": 1
+    },
+    {
+      "id": 40,
+      "titre": "Les algorithmes de tri expliqués",
+      "contenu": "Bubble sort, quick sort, merge sort : comprendre leurs différences aide à choisir le bon pour chaque cas.",
+      "image": "https://placehold.co/300x200?text=Tri",
+      "categorie_id": 17,
+      "date_creation": "2025-11-09",
+      "user_id": 2
+    },
+    {
+      "id": 41,
+      "titre": "L’ergonomie dans les jeux vidéo",
+      "contenu": "Un bon design de jeu repose sur la clarté des interfaces et la fluidité des interactions.",
+      "image": "https://placehold.co/300x200?text=Game+UX",
+      "categorie_id": 61,
+      "date_creation": "2025-11-10",
+      "user_id": 4
+    },
+    {
+      "id": 42,
+      "titre": "Créer un chatbot avec Python",
+      "contenu": "Les bibliothèques comme ChatterBot et NLTK facilitent la création de bots conversationnels intelligents.",
+      "image": "https://placehold.co/300x200?text=Chatbot",
+      "categorie_id": 7,
+      "date_creation": "2025-11-11",
+      "user_id": 3
+    },
+    {
+      "id": 43,
+      "titre": "Découvrir le framework Laravel",
+      "contenu": "Laravel simplifie le développement backend avec une syntaxe élégante et une architecture MVC robuste.",
+      "image": "https://placehold.co/300x200?text=Laravel",
+      "categorie_id": 36,
+      "date_creation": "2025-11-12",
+      "user_id": 5
+    },
+    {
+      "id": 44,
+      "titre": "Apprendre à utiliser MongoDB",
+      "contenu": "MongoDB est une base NoSQL orientée documents, parfaite pour les applications à forte évolutivité.",
+      "image": "https://placehold.co/300x200?text=MongoDB",
+      "categorie_id": 19,
+      "date_creation": "2025-11-13",
+      "user_id": 1
+    },
+    {
+      "id": 45,
+      "titre": "Introduction à l’automatisation avec Ansible",
+      "contenu": "Ansible permet de gérer la configuration des serveurs de manière déclarative et reproductible.",
+      "image": "https://placehold.co/300x200?text=Ansible",
+      "categorie_id": 11,
+      "date_creation": "2025-11-14",
+      "user_id": 4
+    },
+    {
+      "id": 46,
+      "titre": "Les bases de la réalité augmentée",
+      "contenu": "La réalité augmentée superpose des éléments virtuels au monde réel via un smartphone ou un casque.",
+      "image": "https://placehold.co/300x200?text=AR",
+      "categorie_id": 28,
+      "date_creation": "2025-11-15",
+      "user_id": 5
+    },
+    {
+      "id": 47,
+      "titre": "Créer une API GraphQL avec Apollo",
+      "contenu": "Apollo simplifie la création et la consommation d’API GraphQL en JavaScript.",
+      "image": "https://placehold.co/300x200?text=Apollo+GraphQL",
+      "categorie_id": 37,
+      "date_creation": "2025-11-16",
+      "user_id": 2
+    },
+    {
+      "id": 48,
+      "titre": "Introduction à l’algorithmique",
+      "contenu": "L’algorithmique permet de décomposer les problèmes complexes en étapes logiques et structurées.",
+      "image": "https://placehold.co/300x200?text=Algorithmique",
+      "categorie_id": 17,
+      "date_creation": "2025-11-17",
+      "user_id": 3
+    },
+    {
+      "id": 49,
+      "titre": "L’évolution des processeurs ARM",
+      "contenu": "Les puces ARM dominent le marché mobile et s’imposent progressivement dans les ordinateurs personnels.",
+      "image": "https://placehold.co/300x200?text=ARM",
+      "categorie_id": 5,
+      "date_creation": "2025-11-18",
+      "user_id": 4
+    },
+    {
+      "id": 50,
+      "titre": "Les fondamentaux de la virtualisation",
+      "contenu": "La virtualisation permet d’exécuter plusieurs systèmes sur une même machine via des hyperviseurs.",
+      "image": "https://placehold.co/300x200?text=Virtualisation",
+      "categorie_id": 51,
+      "date_creation": "2025-11-19",
+      "user_id": 1
+    }
+  ]
+}
+
+  ]
+}

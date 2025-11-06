@@ -1,0 +1,394 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nom": "Informatique",
+      "image": "https://etudestech.com/wp-content/uploads/2022/12/entreprise-informatique-1536x1024.jpeg"
+    },
+    {
+      "id": 2,
+      "nom": "Programmation",
+      "image": "https://www.versio.fr/images/public/medias/images/html!jpg?w=900&fit=crop&fm=webp&q=75&s=be0cc165c7ef7d6c9854ede30b37c05e"
+    },
+    {
+      "id": 3,
+      "nom": "Matériel",
+      "image": "https://www.01net.com/app/uploads/2025/10/test-Oppo-Find-X9-Pro-dos-2-960x640.jpg"
+    },
+    {
+      "id": 4,
+      "nom": "Cybersécurité",
+      "image": "https://cdn-ialap.nitrocdn.com/bSxMvRMJjpvESeBpWPWSavCeSWXQHFjk/assets/images/optimized/rev-4f86c40/www.zucisystems.com/wp-content/uploads/2021/07/icon-internet-world-hands-businessman-network-technology-communication-scaled.jpg"
+    },
+    {
+      "id": 5,
+      "nom": "Réseaux",
+      "image": "https://placehold.co/140?text=Réseaux"
+    },
+    {
+      "id": 6,
+      "nom": "Base de données",
+      "image": "https://placehold.co/140?text=Base+de+données"
+    },
+    {
+      "id": 7,
+      "nom": "IA",
+      "image": "https://placehold.co/140?text=IA"
+    },
+    {
+      "id": 8,
+      "nom": "Machine Learning",
+      "image": "https://placehold.co/140?text=Machine+Learning"
+    },
+    {
+      "id": 9,
+      "nom": "Deep Learning",
+      "image": "https://placehold.co/140?text=Deep+Learning"
+    },
+    {
+      "id": 10,
+      "nom": "Cloud",
+      "image": "https://placehold.co/140?text=Cloud"
+    },
+    {
+      "id": 11,
+      "nom": "DevOps",
+      "image": "https://placehold.co/140?text=DevOps"
+    },
+    {
+      "id": 12,
+      "nom": "Systèmes",
+      "image": "https://placehold.co/140?text=Systèmes"
+    },
+    {
+      "id": 13,
+      "nom": "Linux",
+      "image": "https://placehold.co/140?text=Linux"
+    },
+    {
+      "id": 14,
+      "nom": "Windows",
+      "image": "https://placehold.co/140?text=Windows"
+    },
+    {
+      "id": 15,
+      "nom": "MacOS",
+      "image": "https://placehold.co/140?text=MacOS"
+    },
+    {
+      "id": 16,
+      "nom": "Python",
+      "image": "https://placehold.co/140?text=Python"
+    },
+    {
+      "id": 17,
+      "nom": "JavaScript",
+      "image": "https://placehold.co/140?text=JavaScript"
+    },
+    {
+      "id": 18,
+      "nom": "PHP",
+      "image": "https://placehold.co/140?text=PHP"
+    },
+    {
+      "id": 19,
+      "nom": "C#",
+      "image": "https://placehold.co/140?text=C#"
+    },
+    {
+      "id": 20,
+      "nom": "C++",
+      "image": "https://placehold.co/140?text=C++"
+    },
+    {
+      "id": 21,
+      "nom": "Java",
+      "image": "https://placehold.co/140?text=Java"
+    },
+    {
+      "id": 22,
+      "nom": "Rust",
+      "image": "https://placehold.co/140?text=Rust"
+    },
+    {
+      "id": 23,
+      "nom": "Go",
+      "image": "https://placehold.co/140?text=Go"
+    },
+    {
+      "id": 24,
+      "nom": "Web",
+      "image": "https://placehold.co/140?text=Web"
+    },
+    {
+      "id": 25,
+      "nom": "Frontend",
+      "image": "https://placehold.co/140?text=Frontend"
+    },
+    {
+      "id": 26,
+      "nom": "Backend",
+      "image": "https://placehold.co/140?text=Backend"
+    },
+    {
+      "id": 27,
+      "nom": "Mobile",
+      "image": "https://placehold.co/140?text=Mobile"
+    },
+    {
+      "id": 28,
+      "nom": "iOS",
+      "image": "https://placehold.co/140?text=iOS"
+    },
+    {
+      "id": 29,
+      "nom": "Android",
+      "image": "https://placehold.co/140?text=Android"
+    },
+    {
+      "id": 30,
+      "nom": "React",
+      "image": "https://placehold.co/140?text=React"
+    },
+    {
+      "id": 31,
+      "nom": "Vue.js",
+      "image": "https://placehold.co/140?text=Vue.js"
+    },
+    {
+      "id": 32,
+      "nom": "Angular",
+      "image": "https://placehold.co/140?text=Angular"
+    },
+    {
+      "id": 33,
+      "nom": "Next.js",
+      "image": "https://placehold.co/140?text=Next.js"
+    },
+    {
+      "id": 34,
+      "nom": "Node.js",
+      "image": "https://placehold.co/140?text=Node.js"
+    },
+    {
+      "id": 35,
+      "nom": "Express",
+      "image": "https://会議hold.co/140?text=Express"
+    },
+    {
+      "id": 36,
+      "nom": "API REST",
+      "image": "https://placehold.co/140?text=API+REST"
+    },
+    {
+      "id": 37,
+      "nom": "GraphQL",
+      "image": "https://placehold.co/140?text=GraphQL"
+    },
+    {
+      "id": 38,
+      "nom": "Data",
+      "image": "https://placehold.co/140?text=Data"
+    },
+    {
+      "id": 39,
+      "nom": "Big Data",
+      "image": "https://placehold.co/140?text=Big+Data"
+    },
+    {
+      "id": 40,
+      "nom": "Blockchain",
+      "image": "https://placehold.co/140?text=Blockchain"
+    },
+    {
+      "id": 41,
+      "nom": "Crypto",
+      "image": "https://placehold.co/140?text=Crypto"
+    },
+    {
+      "id": 42,
+      "nom": "IoT",
+      "image": "https://placehold.co/140?text=IoT"
+    },
+    {
+      "id": 43,
+      "nom": "Réalité augmentée",
+      "image": "https://placehold.co/140?text=Réalité+augmentée"
+    },
+    {
+      "id": 44,
+      "nom": "Réalité virtuelle",
+      "image": "https://placehold.co/140?text=Réalité+virtuelle"
+    },
+    {
+      "id": 45,
+      "nom": "UI/UX",
+      "image": "https://placehold.co/140?text=UI/UX"
+    },
+    {
+      "id": 46,
+      "nom": "Design",
+      "image": "https://placehold.co/140?text=Design"
+    },
+    {
+      "id": 47,
+      "nom": "3D",
+      "image": "https://placehold.co/140?text=3D"
+    },
+    {
+      "id": 48,
+      "nom": "Audio",
+      "image": "https://placehold.co/140?text=Audio"
+    },
+    {
+      "id": 49,
+      "nom": "Vidéo",
+      "image": "https://placehold.co/140?text=Vidéo"
+    },
+    {
+      "id": 50,
+      "nom": "Jeux vidéo",
+      "image": "https://placehold.co/140?text=Jeux+vidéo"
+    },
+    {
+      "id": 51,
+      "nom": "Cloud computing",
+      "image": "https://placehold.co/140?text=Cloud+computing"
+    },
+    {
+      "id": 52,
+      "nom": "Serveurs",
+      "image": "https://placehold.co/140?text=Serveurs"
+    },
+    {
+      "id": 53,
+      "nom": "Sécurité réseau",
+      "image": "https://placehold.co/140?text=Sécurité+réseau"
+    },
+    {
+      "id": 54,
+      "nom": "Administration système",
+      "image": "https://placehold.co/140?text=Administration+système"
+    },
+    {
+      "id": 55,
+      "nom": "Maintenance",
+      "image": "https://placehold.co/140?text=Maintenance"
+    },
+    {
+      "id": 56,
+      "nom": "Virtualisation",
+      "image": "https://placehold.co/140?text=Virtualisation"
+    },
+    {
+      "id": 57,
+      "nom": "Automatisation",
+      "image": "https://placehold.co/140?text=Automatisation"
+    },
+    {
+      "id": 58,
+      "nom": "NoCode",
+      "image": "https://placehold.co/140?text=NoCode"
+    },
+    {
+      "id": 59,
+      "nom": "LowCode",
+      "image": "https://placehold.co/140?text=LowCode"
+    },
+    {
+      "id": 60,
+      "nom": "Robots",
+      "image": "https://placehold.co/140?text=Robots"
+    },
+    {
+      "id": 61,
+      "nom": "Sciences",
+      "image": "https://placehold.co/140?text=Sciences"
+    },
+    {
+      "id": 62,
+      "nom": "Éducation",
+      "image": "https://placehold.co/140?text=Éducation"
+    },
+    {
+      "id": 63,
+      "nom": "Innovation",
+      "image": "https://placehold.co/140?text=Innovation"
+    },
+    {
+      "id": 64,
+      "nom": "Startups",
+      "image": "https://placehold.co/140?text=Startups"
+    },
+    {
+      "id": 65,
+      "nom": "Entreprise",
+      "image": "https://placehold.co/140?text=Entreprise"
+    },
+    {
+      "id": 66,
+      "nom": "Marketing digital",
+      "image": "https://placehold.co/140?text=Marketing+digital"
+    },
+    {
+      "id": 67,
+      "nom": "E-commerce",
+      "image": "https://placehold.co/140?text=E-commerce"
+    },
+    {
+      "id": 68,
+      "nom": "SEO",
+      "image": "https://placehold.co/140?text=SEO"
+    },
+    {
+      "id": 69,
+      "nom": "Cloud Security",
+      "image": "https://placehold.co/140?text=Cloud+Security"
+    },
+    {
+      "id": 70,
+      "nom": "Accessibilité",
+      "image": "https://placehold.co/140?text=Accessibilité"
+    },
+    {
+      "id": 71,
+      "nom": "Performance web",
+      "image": "https://placehold.co/140?text=Performance+web"
+    },
+    {
+      "id": 72,
+      "nom": "Testing",
+      "image": "https://placehold.co/140?text=Testing"
+    },
+    {
+      "id": 73,
+      "nom": "Scrum",
+      "image": "https://placehold.co/140?text=Scrum"
+    },
+    {
+      "id": 74,
+      "nom": "Agilité",
+      "image": "https://placehold.co/140?text=Agilité"
+    },
+    {
+      "id": 75,
+      "nom": "Productivité",
+      "image": "https://placehold.co/140?text=Productivité"
+    },
+    {
+      "id": 76,
+      "nom": "Inspiration",
+      "image": "https://placehold.co/140?text=Inspiration"
+    },
+    {
+      "id": 77,
+      "nom": "Freelance",
+      "image": "https://placehold.co/140?text=Freelance"
+    },
+    {
+      "id": 78,
+      "nom": "Emploi tech",
+      "image": "https://placehold.co/140?text=Emploi+tech"
+    }
+  ]
+}

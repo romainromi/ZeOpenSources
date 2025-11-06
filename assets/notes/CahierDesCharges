@@ -1,0 +1,4 @@
+On va crée un site web qui se nomme "ZeOpenSource", qui permet d'écrire et de lire des articles dans le domaine de l'informatique, qu'on peut classer par catégories, ou il y a 3 types de membres, les admins, les rédacteurs et les lecteurs simple.
+Le thème de couleur sera bleu ciel et noir, avec les boutons validé en bleu et les erreurs/ déconnexion en rouge
+On a une page d'accueil avec le Nom du site en haut, qui explique le site et qu'il faut un compte pour pouvoir acceder a tout les contenues, et les catégories les plus lu en tête d'affiches sous forme de carré 
+1 page login, 1 page avec tout les articles qu'on peux classé, et 1 page d'articles exemple

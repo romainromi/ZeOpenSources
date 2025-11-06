@@ -1,0 +1,42 @@
+Cahier des charges
+
+
+Plateformes de partage de savoir informatique
+
+
+Accueil avec les catégories les plus regardés en forme de carré 
+Site de partage de savoir numérique
+Permettre a des personnes compétantes de pouvoir rédiger et créer des articles, comme but de ciblé une témathique / publics ( textes, images, videos, .. )
+1 page d'accueil qui explique le site, un logo ZeOpenSource et qui prévient qu'il faut se connecter pour pouvoir voir le site
+1 page login
+3 roles => 1 rédacteurs qui peux ecrire des articles, 1 utilisateur lambda qui peux juste consulter les articles et 1 administrateur, qui peux créer des comptes
+Charte graphique: 3 couleurs => Bleu ciel très blanc, et du noir, bouton validé => bleu, attention/déconnexion => rouge
+Exemple de site : Sololearn, MDN, 3WSchool
+Pas de vouvoiement
+Catégorie d'articles (informatique,reseau , sécurité, mobile,...)
+contenu: lorem et placehold
+Interdiction d'age?
+
+
+
+
+Besoin fonctionnel et contrainte :
+
+
+Lecture et rédaction d'articles avec textes, photos, videos,..  ,   Liste de catégories , connexion 
+Contrainte: besoin d'avoir un compte et d'etre connecter pour avoir acces aux articles
+
+
+Identifier les utilisateurs et fonctionnalités :
+
+
+1 admin (qui peux créer/supprimer des comptes, et écrire des articles) , Des rédacteurs (qui peuvent écrire des articles), et des simples utilisateurs (uniquement naviguer sur le site et lire les articles)
+
+
+Rédiger un document de cadrage clair et exploitable :
+
+
+On va crée un site web qui se nomme "ZeOpenSource", qui permet d'écrire et de lire des articles dans le domaine de l'informatique, qu'on peut classer par catégories, ou il y a 3 types de membres, les admins, les rédacteurs et les lecteurs simple.
+Le thème de couleur sera bleu ciel et noir, avec les boutons validé en bleu et les erreurs/ déconnexion en rouge
+On a une page d'accueil avec le Nom du site en haut, qui explique le site et qu'il faut un compte pour pouvoir acceder a tout les contenues, et les catégories les plus lu en tête d'affiches sous forme de carré 
+1 page login, 1 page avec tout les articles qu'on peux classé, et 1 page d'articles exemple
