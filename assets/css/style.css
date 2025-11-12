@@ -3,6 +3,8 @@
     --secondary: #e9e6e5;
     --tertiary: #FFF;
     --text: #000;
+    --textA: darkblue;
+    --boxshadow: rgba(0,0,0,0.3);
 }
 
 :root.dark {
@@ -10,6 +12,8 @@
     --secondary: #121212; 
     --tertiary: #312f2f; 
     --text: #f0f0f0;
+    --textA: lightblue;
+    --boxshadow: rgba(255, 255, 255, 0.15);
 }
 
 body{
@@ -84,10 +88,11 @@ section{
     margin: -5rem auto 5rem auto;
     background-color: var(--tertiary);
     padding: 1rem 0 1rem;
-    border-radius: 10px;
+    border-radius: 16px;
     width: 85%;
     max-width: 1500px;
     align-self: center;
+    box-shadow: 0 4px 4px var(--boxshadow);
 }
 
 .articles{
@@ -128,18 +133,46 @@ section{
 }
 
 
-/* Articles a la une */
+/* Articles a la une / carousel */
 
 .A-alaune {
   overflow: hidden;
   position: relative;
-  margin: 2rem auto;
+  margin: auto;
   background: var(--tertiary);
   border-radius: 10px;
   padding: 1rem 0;
 }
 
 
+.A-alaune button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+  transition: 0.3s;
+}
+
+.A-alaune button:hover {
+  background: rgba(0,0,0,0.8);
+  transform: translateY(-50%) scale(1.1);
+}
+
+
+.precedent{
+    left: 1rem;
+}
+.suivant{
+    right: 1rem;
+}
 
 /* main */
 
@@ -157,6 +190,110 @@ section{
     margin: 0 auto 2rem;
     max-width: 1300px;
     color: var(--text);
+}
+
+/* Page Inscription */
+
+.explication{
+    text-align: center;
+    color: var(--text);
+    margin-top: 2rem;
+}
+
+.main-formulaire{
+    display: flex;
+    padding: 3rem 2rem;
+}
+
+.inscription, .connexion{
+    background-color: var(--tertiary);
+    width: 40%;
+    margin: 0 5%;
+    border-radius: 2rem;
+    box-shadow: 0 2px 4px 4px var(--boxshadow);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.inscriptionElement, .connexionElement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.inscriptionElement input,
+.connexionElement input {
+    width: 80%;
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.inscriptionElement input:focus, .connexionElement input:focus{
+    border-color: var(--primary);
+    outline: none;
+    box-shadow: 0 0 5px var(--textA);
+}
+
+.titre-inscription, .titre-connexion{
+    color: var(--text);
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inscriptionElement label, .connexionElement label{
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.8rem; 
+}
+
+label a{
+    text-decoration: none;
+    color: var(--textA);
+    margin-left: 0.25rem;
+}
+
+
+.condition{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto 1rem auto
+}
+
+.condition input{
+    width: 1rem;
+    margin-right: 0.8rem;
+}
+
+.condition label{
+    font-size: 15px;
+}
+
+.submit{
+    margin-top: auto;
+    width: 80%;
+    background-color: var(--primary);
+    color: var(--text);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.submit:hover {
+    background-color: var(--text);
+    color: var(--secondary);
+}
+
+.error-msg{
+    color: red;
+    font-size: 1.2rem;
 }
 
 /*footer */
@@ -190,73 +327,3 @@ footer p{
 }
 
 
-/*  carrousel */
-
-.carrousel{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 15px; 
-  margin: 40px auto;
-  width: fit-content;
-  background: var(--tertiary);
-  padding: 15px;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-
-
-.carrousel .images{
-  display: flex;
-  gap: 20px;
-}
-
-.carrousel img{
-  width: 120px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-
-
-.carrousel button{
-  background-color: #333;
-  color: white;
-  border: none;
-  font-size: 24px;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-}
-
-.carrousel button:hover{
-  background-color: #555;
-}
-
-
-.A-alaune button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(0,0,0,0.5);
-  color: white;
-  border: none;
-  width: 50px;
-  height: 50px;
-  font-size: 2rem;
-  border-radius: 50%;
-  cursor: pointer;
-  z-index: 10;
-  transition: 0.3s;
-}
-
-.A-alaune button:hover {
-  background: rgba(0,0,0,0.8);
-  transform: translateY(-50%) scale(1.1);
-}
-
-.prev { left: 2rem; }
-.next { right: 2rem; }

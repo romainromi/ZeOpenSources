@@ -1,11 +1,6 @@
 import { afficherCategories } from "../modules/categories.js";
 import { afficherArticles } from "../modules/articles.js";
+import { storageDarkMode } from "../modules/localStorageModeNuit.js";
 afficherCategories()
 afficherArticles()
-
-const btn = document.getElementById("dark-mode");
-const root = document.documentElement;
-
-btn.addEventListener("click", () => {
-  root.classList.toggle("dark");
-});
+storageDarkMode()
