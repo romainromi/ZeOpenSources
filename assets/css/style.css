@@ -319,7 +319,7 @@ h2.presentation{
     font-size: 2rem;
 }
 
-.inscriptionElement label, .connexionElement label{
+.inscriptionElement > label, .connexionElement > label{
     color: var(--text);
     display: flex;
     justify-content: center;
@@ -327,28 +327,43 @@ h2.presentation{
     font-size: 1.1rem;
 }
 
-label a{
+
+
+.condition{
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto 1rem auto;
+    gap: 0.6rem
+}
+
+.condition input[type="checkbox"]{
+    width: 1rem;
+    flex-shrink: 0;
+    margin-top: 0.2rem;
+}
+
+.condition label{
+    flex: 1;
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+
+.condition label a{
     text-decoration: none;
     color: var(--textA);
     margin-left: 0.25rem;
 }
 
-
-.condition{
-    display: flex;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto 1rem auto
+.condition label a:hover{
+    text-decoration: underline;
 }
 
-.condition input{
-    width: 1rem;
-    margin-right: 0.8rem;
-}
 
-.condition label{
-    font-size: 15px;
-}
+
+
 
 input.submit{
     margin-top: auto;
