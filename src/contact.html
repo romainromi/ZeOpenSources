@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <main class="contact-page">
+        <h2 class="titre-contact">Nous contactez</h2>
+        <form class="contact-form">
+            <div class="nom-prenom">
+                <div class="input-group">
+                    <label for="nom">Votre nom</label>
+                    <input type="text" id="nom" placeholder="Nom" required>
+                </div>    
+                <div class="input-group">
+                    <label for="prenom">Votre prénom</label>
+                    <input type="text" id="prenom" placeholder="Prénom" required>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Adresse mail" required>
+            </div>
+
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" cols="33" rows="20" placeholder="Ecrivez votre message ici.." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Envoyer le message</button>
+        </main>
+    </form>
+    
+
+    <script type="module" src="/assets/js/script.js"></script>
+</body>
+
+</html>

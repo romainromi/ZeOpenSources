@@ -2,6 +2,7 @@ export function storageDarkMode() {
     
 
 const darkModeBtn = document.getElementById("dark-mode");
+if (!darkModeBtn) return;
 
 
 const modeStocker = localStorage.getItem("mode");
@@ -19,20 +20,10 @@ darkModeBtn.addEventListener("click", () => {
     document.documentElement.classList.toggle("dark");
     if (document.documentElement.classList.contains("dark")) {
         localStorage.setItem("mode", "dark");
+        darkModeBtn.textContent ='☀️'
     }else{
         localStorage.setItem("mode", "light");
+        darkModeBtn.textContent='🌙'
     }
 })
 }
-
-
-// const role = localStorage.getItem("role");
-// if(role){
-//     if(role === "admin") {
-//         document.documentElement.classList.add("admin")
-//     } if (role === "redacteur") {
-//         document.documentElement.classList.add("redacteur")
-//     } else {
-//         document.documentElement.classList.add("user")
-//     }
-// }

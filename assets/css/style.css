@@ -33,35 +33,87 @@ header{
     align-items: center;
 }
 
-header>img{
+
+.burger, .profil{
     width: 2.5rem;
     height: 2.5rem;
     color: var(--text);
+    border-radius: 50%;
+    object-fit: cover;
 }
+
+.navbar{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+:root.dark .burger, :root.dark .profil{
+    filter: brightness(0) invert(1);
+}
+
 
 header>h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: var(--text);
 }
 
-header>button{
-    width: 3rem;
-    height: 1.4rem;
-    background-color: var(--secondary);
-    border: solid 1px var(--primary);
+.logo{
+    text-decoration: none;
+    color: var(--text);
+}
+
+header>h1:hover{
+    animation: scaleInfinit 5s infinite;
+}
+
+@keyframes scaleInfinit{
+    11%{
+        transform: scale(1.10);
+    }
+    22%{
+        transform: scale(0.90);
+    }
+    33%{
+        transform: scale(1.10);
+    }
+    44%{
+        transform: scale(0.90);
+    }
+    55%{
+        transform: scale(1.10);
+    }
+    66%{
+        transform: scale(0.90);
+    }
+    77%{
+        transform: scale(1.10);
+    }
+    88%{
+        transform: scale(0.90);
+    }
+    100%{
+        transform: scale(1.10);
+    }
+}
+
+.lien-profil{
+    transition: transform 0.3s ease;
 }
 
 
-.dark {
-  background: #121212;
-  color: var(--tertiary);
+.lien-profil:hover{
+    transform: scale(1.08);
 }
 
-/* Body */
+
+
+/* Body index */
 
 .container-top{
     background-color: var(--primary);
-    padding-bottom: 8rem;
+    padding-bottom: 7rem;
+    
 }
 
 h2.presentation{
@@ -69,30 +121,38 @@ h2.presentation{
     text-align: center;
     font-weight: 500;
     margin: 0 auto;
-    padding: 2rem 1rem 0;
+    padding: 1rem 1rem 0;
     max-width: 1100px;
     color: var(--text);
 }
 
+.background-gradient{
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, var(--primary), transparent 40%);
+    padding-top: 2rem;
+}
+ 
 /* Section */
 
 .best{
     text-align: center;
     font-weight: 700;
-    font-size: larger;
+    font-size: 1.7rem;
     color: var(--text);
-    margin-bottom: -12px;
+    margin-bottom: -8px;
 }
 
-section{
-    margin: -5rem auto 5rem auto;
+#section{
+    margin: -5rem auto 8rem auto;
     background-color: var(--tertiary);
     padding: 1rem 0 1rem;
     border-radius: 16px;
     width: 85%;
     max-width: 1500px;
     align-self: center;
-    box-shadow: 0 4px 4px var(--boxshadow);
+    box-shadow: 0 8px 10px var(--boxshadow);
+
 }
 
 .articles{
@@ -136,34 +196,34 @@ section{
 /* Articles a la une / carousel */
 
 .A-alaune {
-  overflow: hidden;
-  position: relative;
-  margin: auto;
-  background: var(--tertiary);
-  border-radius: 10px;
-  padding: 1rem 0;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    background: var(--tertiary);
+    border-radius: 10px;
+    padding: 1rem 0;
 }
 
 
 .A-alaune button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(0,0,0,0.5);
-  color: white;
-  border: none;
-  width: 50px;
-  height: 50px;
-  font-size: 2rem;
-  border-radius: 50%;
-  cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
   z-index: 10;
   transition: 0.3s;
 }
 
 .A-alaune button:hover {
-  background: rgba(0,0,0,0.8);
-  transform: translateY(-50%) scale(1.1);
+    background: rgba(0,0,0,0.8);
+    transform: translateY(-50%) scale(1.1);
 }
 
 
@@ -181,11 +241,11 @@ section{
     text-align: center;
     font-weight: 600;
     margin: 3rem auto;
-    padding: 2rem 1rem 0;
+    padding: 0 1rem 0;
     color: var(--text);
 }
 
-.lorem{
+.prez{
     text-align: center;
     margin: 0 auto 2rem;
     max-width: 1300px;
@@ -196,13 +256,19 @@ section{
 
 .explication{
     text-align: center;
+    font-size: 2rem;
     color: var(--text);
-    margin-top: 2rem;
+    margin: 2rem auto 4rem;
 }
 
 .main-formulaire{
-    display: flex;
     padding: 3rem 2rem;
+    background: linear-gradient(to bottom, var(--primary), transparent 30%);
+
+}
+
+.forms-auth{
+    display: flex;
 }
 
 .inscription, .connexion{
@@ -210,7 +276,7 @@ section{
     width: 40%;
     margin: 0 5%;
     border-radius: 2rem;
-    box-shadow: 0 2px 4px 4px var(--boxshadow);
+    box-shadow: 0 10px 40px var(--boxshadow);
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -227,17 +293,22 @@ section{
 .connexionElement input {
     width: 80%;
     margin-bottom: 1rem;
-    padding: 0.6rem;
     border-radius: 12px;
     font-size: 1rem;
     font-family: inherit;
     box-sizing: border-box;
+    background-color: var(--secondary);
+    padding: 1rem 1.2rem;
+    border: none;
+    color: var(--text);
+    transition: all 0.3s ease;
+    box-shadow: inset 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .inscriptionElement input:focus, .connexionElement input:focus{
-    border-color: var(--primary);
     outline: none;
-    box-shadow: 0 0 5px var(--textA);
+    transform: translateY(-2px);
+    box-shadow: 0 0 0 3px var(--textA);
 }
 
 .titre-inscription, .titre-connexion{
@@ -245,6 +316,7 @@ section{
     text-align: center;
     padding-bottom: 1rem;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
 }
 
 .inscriptionElement label, .connexionElement label{
@@ -252,6 +324,7 @@ section{
     display: flex;
     justify-content: center;
     padding-bottom: 0.8rem; 
+    font-size: 1.1rem;
 }
 
 label a{
@@ -277,24 +350,32 @@ label a{
     font-size: 15px;
 }
 
-.submit{
+input.submit{
     margin-top: auto;
     width: 80%;
     background-color: var(--primary);
     color: var(--text);
+    font-weight: bold;
     cursor: pointer;
-    transition: 0.2s ease;
+    transition: all 0.3s ease;
+    border-radius: 2rem;
 }
 
-.submit:hover {
-    background-color: var(--text);
+input.submit:hover {
+    background-color: var(--textA);
     color: var(--secondary);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    transform: translateY(-4px) scale(1.05);
 }
 
 .error-msg{
     color: red;
     font-size: 1.2rem;
 }
+
+
+
+
 
 /*footer */
 
@@ -307,19 +388,21 @@ footer{
     font-size: 1.2rem;
 }
 
-.titre{
-    font-weight: bold;
-}
-
-footer a {
-    text-decoration: none;
+footer a{
     color: var(--text);
-    transition: color 0.2s ease, transform 0.2s ease;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    border-radius: 1rem;
 }
 
-footer a:hover {
-    color: darkblue;
-    transform: scale(1.10);
+footer a:hover{
+    transform: scale(1.08);
+}
+
+.titre-footer{
+    font-weight: bold;
 }
 
 footer p{
@@ -327,3 +410,247 @@ footer p{
 }
 
 
+
+
+/* SideBAr */
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 250px;
+    height: 100vh;
+    background-color: var(--primary);
+    transition: left 0.3s ease;
+    z-index: 1001;
+    padding: 2rem 1.5rem;
+    box-shadow: 4px 0 20px var(--boxshadow);
+}
+
+.sidebar.active{
+    left: 0;
+}
+
+.sidebar-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 2rem;
+}
+
+.darkmode-btn{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: var(--secondary);
+    cursor: pointer;  
+}
+
+.liens-nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+
+.liens-nav a{
+    display: block;
+    padding: 1rem 0;
+    color: var(--text);
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    transition: padding-left 0.2s ease, transform 0.2s ease;
+}
+
+.liens-nav a:hover{
+    padding-left: 1rem;
+    transform: scale(1.06);
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+}
+
+.sidebar-overlay{
+    opacity: 0;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,0.25);
+    visibility: hidden;
+    transition: all 0.3s;
+    z-index: 1000;
+}
+
+.sidebar-overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+/* page contact*/
+
+
+.contact-page {
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, var(--primary), transparent 30%);
+}
+
+.titre-contact {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--text);
+}
+
+
+
+
+.contact-form {
+  width: 80%;
+  max-width: 1000px;
+  background: var(--tertiary);
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 40px var(--boxshadow);
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  margin-bottom: 4rem;
+}
+
+
+.nom-prenom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--text);
+  font-size: 1.1rem;
+}
+
+.input-group input,
+.input-group textarea {
+  padding: 1rem 1.2rem;
+  border: none;
+  border-radius: 12px;
+  background: var(--secondary);
+  color: var(--text);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: inset 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  outline: none;
+  transform: translateY(-2px);
+  box-shadow: 0 0 0 3px var(--textA);
+  background: var(--secondary);
+}
+
+.btn-submit {
+  margin-top: 1.5rem;
+  padding: 1.2rem 2rem;
+  background: var(--primary);
+  color: var(--text);
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  align-self: center;
+}
+
+.btn-submit:hover {
+  transform: translateY(-4px) scale(1.05);
+  background-color: var(--textA);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  color: var(--secondary);
+}
+
+
+
+
+/*Responsive telepohne */
+
+
+@media (max-width: 600px){
+    
+    /* Hedaer */
+    
+    header{
+        padding: 1.2rem;
+    }
+
+        header h1 {
+        font-size: 1.4rem;
+    }
+
+    header button {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        box-shadow: solid 1px var(--boxshadow);
+        font-size: 0.8rem;
+    }
+
+    header img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+/*  Section / main */
+
+    #section {
+        width: 75%;
+        margin: -5rem auto 3rem;
+        padding: 1rem 0.7rem;
+    }
+
+    .best{
+        font-size: 1.4rem;
+    }
+
+    .precedent, .suivant{
+        display: none;
+    }
+
+    .prez{
+        margin: 2rem; 
+    }
+
+
+    /*CONTACT */
+
+    .nom-prenom {
+    grid-template-columns: 1fr;
+    }
+    .contact-form {
+      padding: 2rem;
+    }
+    .titre-contact {
+      font-size: 2rem;
+    }
+}

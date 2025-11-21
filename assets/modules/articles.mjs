@@ -1,17 +1,18 @@
-export async function afficherCategories(){
+export async function afficherArticles(){
     try {
-        const res = await fetch ('../../data/categories.json')
+        const res = await fetch ('../data/articles.json')
         if (!res.ok) throw new Error ("Erreur lors du chargement des données categorie.json")
 
         const data = await res.json();
-        const container = document.getElementById("categorieContainer")
+        const container = document.getElementById("articleContainer")
 
-        data.categories.slice(0, 4).forEach(a => {
+        data.articles.slice(0, 4).forEach(a => {
             const card = document.createElement('article')
             card.className = "article"
             card.innerHTML = `
-            <img src="${a.image}" alt="${a.nom}"/>
-            <h2>${a.nom}</h2>
+            <h2>${a.titre}</h2>
+            <img src="${a.image}" alt="${a.contenu}"/>
+            <p>${a.date_creation}</p>
             `
             container.appendChild(card)
         })

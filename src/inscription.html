@@ -4,65 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Authentification</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="shortcut icon" href="https://placehold.co/32" type="image/x-icon">
 </head>
-
 <body>
-    <header>
-        <button id="dark-mode">🌙</button>
-        <h1>ZeOpenSources</h1>
-        <img src="../assets/img/utilisateur.png" alt="Image de profil">
-    </header>
-    <h2 class="explication">Connectez vous pour accéder au site</h2>
+    
     <main class="main-formulaire">
+        <h2 class="explication">Connectez vous pour accéder au site</h2>
+            <section class="forms-auth">
+            <div class="inscription">
+                <h3 class="titre-inscription">Inscription</h3>
+                <form class="inscriptionElement" id="incriptionForm">
 
-        <div class="inscription">
-            <h2 class="titre-inscription">Inscription</h2>
-            <form class="inscriptionElement">
+                    <label for="name">Nom</label>
+                    <input id="inputInscription" type="text" placeholder="Nom" required>
 
-                <label for="name">Nom</label>
-                <input type="text" placeholder="Entrez votre Nom" required>
+                    <label for="firstname">Prénom</label>
+                    <input id="inputInscription" type="text" placeholder="Prénom" required>
 
-                <label for="firstname">Prénom</label>
-                <input type="text" placeholder="Entrez votre Prénom" required>
+                    <label for="email">Email</label>
+                    <input id="inputInscription" type="email" placeholder="Adresse Mail" required>
+                    <label for="text">Pseudo</label>
+                    <input id="inputInscription" type="text" placeholder="Pseudo" required>
+                    <label for="password">Mot de Passe</label>
+                    <input id="inputInscription" type="password" placeholder="Mot de passe" required>
+                    <div class="condition">
+                        <input id="checkbox" type="checkbox" required checked>
+                        <label> Accepter les <a href="">conditions d'utilisation</a></label>
+                        <p id="accepterCondition" class="error-msg"></p>
+                    </div>
+                    <p id="errorInscription" class="error-msg"></p>
+                    <input type="submit" value="Inscription" class="submit" id="submitInscription">
+                </form>
 
-                <label for="email">Email</label>
-                <input type="email" placeholder="Entrez votre adresse mail" required>
-                <label for="text">Pseudo</label>
-                <input type="text" placeholder="Entrez votre pseudo" required>
-                <label for="password">Mot de Passe</label>
-                <input type="password" placeholder="Mot de passe" required>
-                <div class="condition">
-                    <input type="checkbox" required>
-                    <label> Accepter les <a href="">conditions d'utilisation</a></label>
-                </div>
-                <input type="submit" value="Inscription" class="submit">
-            </form>
-
-        </div>
+            </div>
 
 
-        <div class="connexion">
-            <h2 class="titre-connexion">Connexion</h2>
-            <form class="connexionElement" id="loginForm">
-                <label for="email">Email</label>
-                <input type="email" placeholder="Votre adresse mail" required>
-                <label for="password">Mot de passe</label>
-                <input type="password" placeholder="Mot de passe" required>
+            <div class="connexion">
+                <h3 class="titre-connexion">Connexion</h3>
+                <form class="connexionElement" id="loginForm">
+                    <label for="email">Email</label>
+                    <input id="inputConnexion" type="email" placeholder="Adresse Mail" required>
+                    <label for="password">Mot de passe</label>
+                    <input id="inputConnexion" type="password" placeholder="Mot de passe" required>
 
-                <p id="error" class="error-msg"></p>
+                    <p id="errorConnexion" class="error-msg"></p>
 
-                <input type="submit" value="Connexion" class="submit">
-            </form>
-        </div>
+                    <input type="submit" value="Connexion" class="submit" id="submitConnexion">
+                </form>
+            </div>
+        </section>
     </main>
-    <footer>
-        <p>Tout droits non reservé</p>
-        <p class="titre">ZeOpenSources</p>
-        <a href="#">Nous contacter</a>
-    </footer>
+    
     <script type="module" src="../assets/js/script.js"></script>
 </body>
 
